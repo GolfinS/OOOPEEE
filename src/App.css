@@ -1,0 +1,52 @@
+/* App.css */
+.container {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.button {
+  background-color: #db9834;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #f29945;
+  transform: scale(1.05);
+}
+
+.button.active {
+  background-color: #f25145;
+  transform: scale(1.05);
+}
+
+.component-view {
+  display: flex;
+  align-items: center;
+}
+
+.component-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #3498db;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.component-container:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,22 @@
+/* สร้างคลาส background-image */
+.background-image {
+    /* ตั้งค่า position เป็น relative เพื่อให้สามารถวาง Angry Bird อยู่หน้าพื้นหลัง */
+    position: relative;
+    z-index: 1; /* ควบคุมการแสดงผลของพื้นหลัง */
+    width: 1440px; /* เปลี่ยนความกว้างตามที่คุณต้องการ */
+    height: 800px; /* เปลี่ยนความสูงตามที่คุณต้องการ */
+  }
+  
+  /* สร้างคลาส bird-image */
+  .bird-image {
+    /* ตั้งค่า position เป็น absolute เพื่อควบคุมตำแหน่งของ Angry Bird */
+    position: absolute;
+    top: 64.23%; /* ให้ Angry Bird อยู่กึ่งกลางแนวดิ่ง */
+    left: 49.75%; /* ให้ Angry Bird อยู่กึ่งกลางแนวนอน */
+    transform: translate(-50%, -50%); /* ย้าย Angry Bird ไปยังตรงกลางของพื้นหลัง */
+    z-index: 2; /* ควบคุมการแสดงผลของ Angry Bird ให้อยู่หน้าพื้นหลัง */
+    width: 446px; /* เปลี่ยนความกว้างตามที่คุณต้องการ */
+    height: 559px; /* เปลี่ยนความสูงตามที่คุณต้องการ */
+  
+  }
+  
